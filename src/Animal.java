@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class Animal {
+public class Animal {
+    public void  eat(){
+
+    }
+    public void  MakeNoice(){
+
+    }
 }

@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class Cat {
+public class Cat extends Animal{
+    public void  eat(){
+        System.out.println("meat");
+    }
+    public void  MakeNoice(){
+        System.out.println("wof wof");
+    }
 }
