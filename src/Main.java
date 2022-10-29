@@ -3,15 +3,15 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Animal> animal = new ArrayList<>();
-        animal.add(new Cat());
-        animal.add(new Dog());
-        animal.add(new Cat());
-        animal.add(new Dog());
-        animal.add(new Cat());
-        animal.add(new Dog());
-        for (Animal value : animal) {
-            value.makeNoice();
+        List<Animal> animals = new ArrayList<>();
+        animals.add(new Cat());
+        animals.add(new Dog());
+        animals.add(new Cat());
+        animals.add(new Dog());
+        animals.add(new Cat());
+        animals.add(new Dog());
+        for (Animal value : animals) {
+            value.makeNoise();
             value.eat();
         }
     }

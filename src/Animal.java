@@ -1,8 +1,5 @@
-public class Animal {
-    public void  eat(){
+abstract public class Animal {
+    abstract public void eat();
 
-    }
-    public void  makeNoice(){
-
-    }
+    abstract public void makeNoise();
 }

@@ -1,8 +1,13 @@
-public class Cat extends Animal{
-    public void  eat(){
-        System.out.println("bread");
+public class Cat extends Animal {
+    public void eat() {
+        System.out.println(10);
     }
-    public void  makeNoice(){
+
+    @Override
+    public void makeNoise() {
         System.out.println("meow");
     }
+
+    // overloading - static polymorphism
+    // overriding - static polymorphism
 }
