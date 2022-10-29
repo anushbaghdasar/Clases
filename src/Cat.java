@@ -1,4 +1,11 @@
 public class Cat extends Animal {
+
+    public Cat(String name) {
+        super(name); // Super always should be the first call in the constructor
+        System.out.println(this.name);
+        this.name = "Cat";
+    }
+
     public void eat() {
         System.out.println(10);
     }

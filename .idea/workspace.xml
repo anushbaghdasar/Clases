@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89073c5f-aa80-402e-b3de-4969dbb0927e" name="Changes" comment="">
+    <list default="true" id="89073c5f-aa80-402e-b3de-4969dbb0927e" name="Changes" comment="Make Animal abstract class">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classes/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classes/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classes/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classes/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
@@ -36,13 +41,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Clases&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/macbook/Lectures/Clases"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Classes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667023148315</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Make Animal abstract class">
+      <created>1667023936297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667023936297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +101,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Simplify main method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simplify main method" />
+    <MESSAGE value="Make Animal abstract class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make Animal abstract class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Cat.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Cat.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Animal.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
