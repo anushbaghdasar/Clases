@@ -1,8 +1,8 @@
 public class Cat extends Animal{
     public void  eat(){
-        System.out.println("meat");
+        System.out.println("bread");
     }
-    public void  MakeNoice(){
-        System.out.println("wof wof");
+    public void  makeNoice(){
+        System.out.println("meow");
     }
 }
